@@ -1,0 +1,114 @@
+/*
+============================================
+; Title:  style.css
+; Author: Andrew Hemminger
+; Date:   10 March 2019
+; Description: Global styling for portfolio
+;===========================================
+*/
+.hidden {
+  display: none;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.anchor {
+  padding-top: 60px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#about {
+  padding: 20px;
+  padding: 60px 60px;
+  background-color: darkgrey;
+  font-size: large;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 3.5rem;
+  padding-bottom: 20px;
+  background-color: #f1f1f1;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1080px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+#mainContent {
+  padding: 20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.back-to-top {
+  display: block;
+  text-align: right;
+  padding-right: 20px;
+}

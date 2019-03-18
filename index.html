@@ -16,7 +16,7 @@
     <link href="styles/site.css" type="text/css" rel="stylesheet">
   </head>
 
-  <body>
+  <body class="bg-dark">
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -43,7 +43,7 @@
 
 <main role="main">
 
-    <div id="top">
+    <div id="top" class="text-light">
         <img src="images/IMG_5786.jpg" class="img-fluid" alt="Responsive image">
         <h1 class="intro">Andrew Hemminger</h1>
         <p class="intro">
@@ -51,7 +51,7 @@
         </p>
     </div><!--End of Intro-->
 
-    <hr>
+    <hr >
 
     <div id="mainContent">
 
@@ -75,7 +75,7 @@
       </div>
 
       <div class="center">
-      <div class="row">
+      <div class="row grid">
           <div class="column">
              <img alt="Colorado Hike" src="images/Gallery_1.JPG" class="img-fluid">
           </div>
@@ -87,7 +87,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row grid">
             <div class="column">
               <img alt="Farm" src="images/Gallery_4.JPG" class="img-fluid" />
             </div>
@@ -99,7 +99,7 @@
             </div>
         </div>
 
-          <div class="row">
+          <div class="row grid">
               <div class="column">
                 <img alt="South Dakota" src="images/Gallery_7.JPG" class="img-fluid" />
               </div>
@@ -113,14 +113,16 @@
         </div>
 
           <div class="center">
-          <img class="img-fluid" src="images/IMG_3431.jpg" alt="NFM mobile site launch" />
+          <img class="img-fluid" src="images/IMG_3431.JPG" alt="NFM mobile site launch" />
           </div>
           <!--End of About Me section-->
 
       <div class="anchor" id="myProjects">
-      <hr>
-      <h2>My Projects</h2>
-      <p>Projects I have work on as part of my coursework at Bellevue University.</p>
+      <div class="text-light">
+        <hr>
+        <h2>My Projects</h2>
+        <p>Projects I have work on as part of my coursework at Bellevue University.</p>
+      </div>
 
       <!-- Portfolio Gallery Grid -->
       <div class="row">
@@ -166,15 +168,17 @@
         <a href="https://github.com/arhemminger/arhemminger.github.io" target="_blank">
         <img class="center img-fluid" src="images/portofolio-sketch1.jpeg" alt="Personal Portfolio Prototype" style="width:75%">
         </a>
-        <h3>Personal Portfolio Prototype</h3>
-        <p>Personal portfolio prototype for Bellevue University JavaScript II course.</p>
+          <div class="align">
+            <h3>Personal Portfolio Prototype</h3>
+            <p>Personal portfolio prototype for Bellevue University JavaScript II course.</p>
+          </div>
       </div>
     </div>
     <!--End of My Projects section-->
 
       <hr>
 
-      <div class="center" id="letsConnect">
+      <div class="center text-light" id="letsConnect">
         <h2>Let's Connect:</h2>
         <ul>
           <li><a class="connectLinks" href="https://www.linkedin.com/in/andrew-hemminger-a0a247133/" target="_blank">Linkedin</a></li>
@@ -190,8 +194,8 @@
 
     <footer>
       <hr>
-      <address class="center">
-        Created by: <strong>Andrew Hemminger | Copyright 2019</strong>
+      <address class="center text-light">
+        Created by: Andrew Hemminger | Copyright 2019
       </address>
       <a class="back-to-top" href="#">Back to top</a>
     </footer>

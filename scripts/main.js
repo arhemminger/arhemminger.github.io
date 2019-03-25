@@ -12,6 +12,7 @@ console.log("");
 
 // start program
 
+// function to show/hide about me text section
 function readML() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -27,7 +28,7 @@ function readML() {
     moreText.style.display = "inline";
   }
 }
-
+// function to show/hide additional images in gallery
 function viewML() {
   var moreImg = document.getElementById("viewMore");
   var textBtn = document.getElementById("viewBtn");

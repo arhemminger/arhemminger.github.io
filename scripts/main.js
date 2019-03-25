@@ -12,27 +12,31 @@ console.log("");
 
 // start program
 
-class controller {
-  constructor() {
-    this.showfirst = false;
-  }
-  buttonclick() {
-   this.showfirst =!this.showfirst;
-   var e = document.getElementById("first");
-   if (this.showfirst) {
-   e.classname = e.classname.replace("hidden", "");
-   }
-   else{
-    e.classname = e.classname + " hidden";
-   }
-   }
-  }
-  /*
-  addHtml(){
-    var e = document.getElementById("html");
-    e.innerHTML="<p>some text inserted via JS</p>";
-  };
-*/
-//after the class created
+function readML() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("aboutBtn");
 
-var vm = new controller();
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function viewML() {
+  var moreImg = document.getElementById("viewMore");
+  var textBtn = document.getElementById("viewBtn");
+
+  if (moreImg.style.display === "none") {
+    moreImg.style.display = "block";
+    textBtn.innerHTML = "View less";
+  } else {
+    moreImg.style.display = "none";
+    textBtn.innerHTML = "View more";
+  }
+}

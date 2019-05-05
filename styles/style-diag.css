@@ -1,0 +1,55 @@
+/*
+============================================
+; Title:  style-diag.css
+; Author: Andrew Hemminger
+; Date:   5 May 2019
+; Description: Diagram page styling for portfolio
+;===========================================
+*/
+body {
+  padding-top: 3.5rem;
+  padding-bottom: 20px;
+  background-color: #f1f1f1;
+  font-family: Arial;
+}
+
+h1 {
+  color: white;
+}
+
+.intro {
+  padding-top: 60px;
+}
+
+/* Center website */
+.main {
+  max-width: 1080px;
+  margin: auto;
+}
+
+#links {
+  font-size: 22px;
+  list-style: none;
+}
+
+#links a:hover {
+  color: white;
+  text-decoration: none;
+}
+.anchor {
+  padding-top: 60px;
+}
+
+.noDecor, .noDecor:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
